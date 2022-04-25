@@ -1,15 +1,13 @@
 import React from 'react'
+import MQButton from './components/shared/MQButton/index.jsx'
+import MQInput from './components/shared/MQInput/index.jsx'
 
 const App = () => {
-	console.log(123)
 	return (
 		<div className="App">
-
-
-
-
-      
-			<div>ss ss</div>
+			<MQInput type={'text'} />
+			<MQInput type={'password'} />
+			<MQButton />
 		</div>
 	)
 }
